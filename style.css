@@ -838,15 +838,18 @@ table {
       }
     }
 
-    display: none;
+    /* display: none; */
   }
 
   #sidecontent {
-    text-align: center;
-    width: 28%;
+ 
+    display: none;
+    
+    /* text-align: center;
+    width: 0%;
     float: left;
-    height: 1000px;
-    background-color: rgb(255, 255, 255);
+    /* height: 1000px; */
+    /* background-color: rgb(255, 255, 255);
     border-right: 1px solid rgb(211, 169, 169);
     padding: 1px;
     margin-top: 6vh;
@@ -863,12 +866,17 @@ table {
 
     svg {
       float: right;
-    }
+    } */ 
+
+
+
   }
 
   #play-img {
     width: 15px;
     height: 15px;
+
+
   }
 
   #a1:hover {
@@ -884,9 +892,9 @@ table {
 
   .imp-play {
     width: 70%;
-    margin-right: 0px;
+    margin: 100px;
     height: 300px;
-    margin-top: -320px;
+    margin-top: 0px;
     .pic {
       width: 100%;
       margin-top: -50px;
@@ -908,9 +916,21 @@ table {
     }
   }
 
+   
+   .mid-info{
+
+    margin-top: -415px;
+   }
+
+
+
+
+
   /* ---------- side div-------- */
 
   .side-div {
+
+    display: none;
     width: 40%;
     height: 660px;
     margin-right: 0px;
@@ -988,7 +1008,7 @@ table {
     }
 
     img {
-      width: 48.5%;
+      width: 47.5%;
       height: 71px;
       padding-top: 1px;
     }
@@ -1000,14 +1020,15 @@ table {
 
   .footer {
     width: 100%;
-    height: 30px;
+    height: 50px;
+  
+    margin-top: 310px;
     background-color: black;
-    text-align: center;
     padding: 3px 0px;
     a {
       text-decoration: none;
       color: white;
-      font-size: small;
+      font-size: small; text-align: center;
     }
   }
 }
