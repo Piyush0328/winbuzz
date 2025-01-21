@@ -1,0 +1,261 @@
+body {
+  background-color: #b88831;
+}
+
+.regf {
+  width: 30%;
+  height: 68git add .0px;
+  border: 2px solid white;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+
+  /*------------ icon------------ */
+  #wimg {
+    width: 46%;
+    height: 53px;
+    margin: 20px 27%;
+  }
+
+  /* -------------- input ---------------- */
+  input {
+    margin: 0px 15px;
+  }
+  #inp {
+    width: 70%;
+    height: 33px;
+    text-align: center;
+
+    margin-left: 0px;
+    background: transparent;
+    border: none;
+
+    border-bottom: 1px solid rgb(228, 214, 214);
+  }
+
+  #inp:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  #inp2 {
+    width: 82%;
+    height: 30px;
+    text-align: center;
+
+    margin-left: 8%;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(233, 219, 219);
+
+    background: transparent;
+  }
+
+  #inp3 {
+    width: 82%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 8%;
+
+    padding-bottom: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(233, 219, 219);
+
+    background: transparent;
+  }
+}
+
+input::placeholder {
+  color: aliceblue;
+}
+/* ------ Select with code div ----------- */
+
+.sele {
+  display: flex;
+  width: 100%;
+
+  height: 36px;
+  margin-top: 10px;
+}
+
+#c-code {
+  height: 36px;
+  margin-left: 8%;
+
+  border: none;
+  border-bottom: 1px solid rgb(231, 223, 223);
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+}
+
+/* ---- p (Line)------- */
+
+p {
+  width: 85%;
+  padding-left: 9%;
+  color: white;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+#limitp {
+  color: red;
+  margin-top: 5px;
+}
+/* ---------button -------- */
+
+.btn {
+  width: 20%;
+  height: 45px;
+  font-size: 80%;
+  background-color: rgb(55, 83, 83);
+  color: rgb(255, 255, 255);
+  margin: 10px 50% 0px 40%;
+  border-radius: 5px;
+}
+
+/* ----------- Div text--------- */
+
+.text {
+  width: 100%;
+}
+
+/*--------- hr line-------- */
+
+.hr-line {
+  width: 85%;
+  display: flex;
+  margin-left: 7%;
+  margin-top: 20px;
+  color: black;
+}
+
+#hr1 {
+  width: 43%;
+}
+
+#hr2 {
+  width: 43%;
+}
+
+/* --------- h4 ---------- */
+#getw {
+  color: white;
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+h5 {
+  width: 80%;
+
+  margin-left: 9%;
+  text-align: left;
+} 
+
+.whats-main{
+  width: 53.3%;
+  border-radius: 6px;
+  display: flex;
+  
+  color: rgb(2, 2, 2);
+  margin-left: 25%;
+  background-color: blueviolet;
+
+
+  a{
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.whats-cont{
+  width: 100%;
+  display: flex;
+  
+  background-color: #F4CA5B;
+
+  border-radius: 6px;
+  padding: 10px;
+  font-size: larger;
+  cursor: pointer;
+ 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.whats-icon{
+font-size: 30px;
+ 
+}
+
+h3{
+  width: 65%;
+  margin-top: 10px;
+  margin-left: 20%;
+ 
+
+#right{
+  float: right;
+  padding-right: 2px;
+  
+}
+
+a{
+  color: white;
+}
+}
+/* ----------------- BOTTOM ------------------ */
+.bottom{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left:5% ;
+
+
+}
+
+.div1{
+  width: 30.33%;
+  
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+   background: linear-gradient(
+    90deg,
+    rgba(184, 136, 49, 1) 0%,
+      rgba(283, 196, 117, 1) 48%,
+    rgba(184, 136, 49, 1) 100%
+   
+  );
+  
+  border-radius: 10px;
+  
+  
+
+}
+
+.div-te{
+  font-weight: 600;
+  padding: 3px;
+ 
+}
+
+.div-im{
+  font-size: 11px;
+  display: inline;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding: 5px;
+  
+ 
+  
+}
