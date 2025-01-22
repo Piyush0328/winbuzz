@@ -304,7 +304,7 @@ nav {
   #sidecontent {
     text-align: center;
     width: 17%;
-    height: 1280px;
+    height: 1320px;
     background-color: rgb(255, 255, 255);
     border-right: 1px solid rgb(211, 169, 169);
     padding: 1px;
@@ -845,7 +845,11 @@ nav {
   
   
   } */
-  
+
+
+
+  /* ---------not commit------------------------------ */
+/*   
   @media screen and (max-width: 480px) {
     .hback {
       width: 100%;
@@ -893,8 +897,12 @@ nav {
   
     #sidecontent {
    
-      display: none;
-      
+      display: none; */
+
+
+      /* --------------------------ONLY COMMIT----------------------------------- */
+
+
       /* text-align: center;
       width: 0%;
       float: left;
@@ -918,9 +926,9 @@ nav {
         float: right;
       } */ 
   
+  /* ------------------ not commit --------------------- */
   
-  
-    }
+    /* }
   
     #play-img {
       width: 15px;
@@ -971,13 +979,13 @@ nav {
   
       margin-top: -415px;
      }
-  
+   */
   
   
   
   
     /* ---------- side div-------- */
-  
+/*   
     .side-div {
   
       display: none;
@@ -1081,5 +1089,5 @@ nav {
         font-size: small; text-align: center;
       }
     }
-  }
+  } */
   
