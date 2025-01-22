@@ -849,7 +849,7 @@ nav {
 
 
   /* ---------not commit------------------------------ */
-/*   
+  
   @media screen and (max-width: 480px) {
     .hback {
       width: 100%;
@@ -892,12 +892,12 @@ nav {
         }
       }
   
-      /* display: none; */
+       display: none;
     }
   
     #sidecontent {
    
-      display: none; */
+      display: none; 
 
 
       /* --------------------------ONLY COMMIT----------------------------------- */
@@ -928,7 +928,7 @@ nav {
   
   /* ------------------ not commit --------------------- */
   
-    /* }
+    }
   
     #play-img {
       width: 15px;
@@ -979,13 +979,13 @@ nav {
   
       margin-top: -415px;
      }
-   */
+  
   
   
   
   
     /* ---------- side div-------- */
-/*   
+  
     .side-div {
   
       display: none;
@@ -1089,5 +1089,5 @@ nav {
         font-size: small; text-align: center;
       }
     }
-  } */
+  }
   

@@ -1,0 +1,11 @@
+div{
+    color: black;
+    background-color: yellowgreen;
+    width: 50%;
+    
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+   padding: 100px;
+   margin: 200px;
+}
