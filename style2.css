@@ -104,6 +104,7 @@ p {
   font-size: 15px;
 }
 
+
 #limitp {
   color: red;
   margin-top: 5px;
@@ -148,8 +149,9 @@ p {
 #getw {
   color: white;
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
+  
 }
 
 h5 {
@@ -223,7 +225,7 @@ a{
 }
 
 .div1{
-  width: 30.33%;
+  width: 33.33%;
   
   height: 50px;
   text-align: center;
@@ -255,7 +257,75 @@ a{
   background-color: black;
   border: 1px solid white;
   padding: 5px;
-  
+  text-wrap: nowrap;
  
   
+}
+
+
+
+@media screen and (max-width: 480px){
+
+.regf{
+  width: 80vw;
+}
+
+h3{
+  width: 75%;
+  margin-top: 10px;
+  margin-left: 15%;
+  background-color: aqua;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 438px){
+
+  .whats-text{
+    font-size: 16px;
+  }
+
+  h3{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 11%;
+    background-color: aqua;
+  
+  }
+
+
+
+
+.div1{
+  width: 33.33%;
+  height: 50px;
+}
+
+.div-te{
+  font-weight: 600;
+  padding: 1.5px;
+ 
+}
+}
+
+@media screen and (min-width: 375px){
+
+  .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:0% ;
+    
+  
+  
+  }
+  .div-te{
+    font-weight: 600;
+    padding: 1px;
+   
+  }
+
 }
