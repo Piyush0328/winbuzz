@@ -274,11 +274,13 @@ h3{
   width: 75%;
   margin-top: 10px;
   margin-left: 15%;
-  background-color: aqua;
 
 }
 
+.btn {
+  width: 25%;
 
+}
 }
 
 
@@ -292,11 +294,14 @@ h3{
     width: 80%;
     margin-top: 10px;
     margin-left: 11%;
-    background-color: aqua;
+  
   
   }
 
-
+  .btn {
+    width: 25%;
+  
+  }
 
 
 .div1{
@@ -327,5 +332,75 @@ h3{
     padding: 1px;
    
   }
+  
+
+
+}
+/* ------------Importent ------------ */
+@media screen and (max-width: 380px){
+
+  .whats-text{
+    font-size: 16px;
+    
+  }
+  
+  .whats-icon{
+    font-size: 25px;
+  }
+   
+  h3{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+ 
+  
+  }
+
+  .btn {
+    width: 25%;
+  
+  }
+  .whats-main{
+    margin: 0% 20%;
+  }
+  .div-te{
+    font-weight: 600;
+    padding: 1.5px;
+    font-size: 15px;
+    
+  }
+
+  
+.div-im{
+  font-size: 10px;
+  display: inline;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding: 3px;
+  text-wrap: nowrap;
+ 
+  
+}
+
+
+
+
+
+h5 {
+  width: 90%;
+
+  margin-left: 5%;
+  text-align: left;
+  
+} 
+
+#getw {
+  color: white;
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+  
+}
 
 }
