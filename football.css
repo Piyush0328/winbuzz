@@ -855,7 +855,7 @@ nav {
       width: 100%;
   
       #reg {
-        width: 100px;
+        width: 100px; 
   
         font-size: 15px;
         color: white;
@@ -957,7 +957,7 @@ nav {
 
 
     .mid-info{
-      margin-top: -430px;
+      margin-top: -470px;
       margin-left: 4px;
 
       font-size: 13px;
@@ -977,15 +977,9 @@ nav {
      }
 
 
-
-
-
-
-
-
     }
-
-
+    
+   
     .tablraw{ 
       font-size: 13px;
       img{
@@ -1267,8 +1261,8 @@ nav {
 }
 
  nav{
-  height: 21px;
-  font-size: 12px;
+  height: 30px;
+  font-size: 15px;
   a{
 
     display: inline;
