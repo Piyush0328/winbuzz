@@ -850,7 +850,7 @@ nav {
 
   /* ---------not commit------------------------------ */
   
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 480px) and (min-width: 380px) {
     .hback {
       width: 100%;
   
