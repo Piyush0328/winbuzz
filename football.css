@@ -756,7 +756,7 @@ nav {
     text-align: center;
   }
   
-  /* .container:hover .image {
+   .container:hover .image {
     opacity: 0.3;
   }
   
@@ -769,7 +769,7 @@ nav {
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-  } */
+  } 
   
   /* text   Media  */
   /* 
@@ -850,7 +850,7 @@ nav {
 
   /* ---------not commit------------------------------ */
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 380px) {
     .hback {
       width: 100%;
   
@@ -866,7 +866,8 @@ nav {
       #icon {
         height: 40px;
         width: 100px;
-        margin: 15px 0px 0px 10px;
+        margin: 10px 0px 10px 10px;
+        margin-right: 55px;
       }
   
       #rul {
@@ -890,11 +891,133 @@ nav {
         thead {
           height: 20px;
         }
+
+
+
+
+        #data1{
+
+          font-size: 12px;
+        }
+
+        
+        #data2{
+
+          font-size: 12px;
+        }
+
+
+
+
+
+
       }
   
-       display: none;
+    
+       
     }
-  
+
+    #firstimg{
+
+           
+        width: 100%; 
+        height: 110px;
+        margin-left: 0px;
+       
+      
+
+
+        #img{
+         
+          width: 100%;
+          height: 54px;
+        
+        }
+      
+        .img2{
+          
+          width: 100%;
+          height: 51px;
+          margin-top: 0px;
+        }
+        
+        #fun2{
+          width: 25%;
+          height: 50px;
+      
+        }
+
+        img {
+          width: 25%;
+          height: 50px;
+         
+         
+        }
+    }
+
+
+    .mid-info{
+      margin-top: -430px;
+      margin-left: 4px;
+
+      font-size: 13px;
+
+      img{
+        width: 16px;
+        height: 16px;
+      }
+
+     i{
+      font-size: x-small;
+     }
+
+     button{width: 10px;
+      
+    
+     }
+
+
+
+
+
+
+
+
+    }
+
+
+    .tablraw{ 
+      font-size: 13px;
+      img{
+        width: 18px;
+        height: 18px;
+      }
+
+      #round{
+       display: none;
+     
+      }
+
+
+
+    }
+
+    #bm{
+      font-size: 10px;
+      width: 20px;
+      margin-top: 5px;
+    }
+
+    .cir{
+
+      float: left;
+      margin-left: 35px;
+      margin-top: 5px;
+
+
+    }
+
+
     #sidecontent {
    
       display: none; 
@@ -973,12 +1096,7 @@ nav {
         height: 150px;
       }
     }
-  
-     
-     .mid-info{
-  
-      margin-top: -415px;
-     }
+
   
   
   
@@ -1089,5 +1207,77 @@ nav {
         font-size: small; text-align: center;
       }
     }
+
+
+    #rul {
+        color: black;
+        font-size: 15px;
+        margin-left: 0%;
+        margin-top: 3vh;
+        display: none;
+      }
+    
+      #reg {
+        width: 100px;
+         float: right;
+
+        font-size: 10px;
+        color: white;
+       margin-left: 3%;
+        margin-top: 3vh;
+        margin-right: 0px;
+      
+        a{
+          text-decoration: none;
+          color: #ffffff;
+        }
+
+      
+      }
+
+      #log {
+        color: white;
+        font-size: 14.5px;
+      
+        margin-top: 3vh;
+        text-align: center;
+       
+      }
+
+
+      .head1 {
+        border-radius: 20px;
+        border: 1px solid white;
+        /* background-color: yellowgreen; */
+        background: transparent;
+        width: 80px;
+        height: 28px;
+        
+      }
+    
+      
+
+ 
+ 
+.hback{
+  width: 100%;
+  background-color: black;
+  padding-top: 15px;
+
+}
+
+ nav{
+  height: 21px;
+  font-size: 12px;
+  a{
+
+    display: inline;
+ 
   }
-  
+ }
+
+ .footer{
+  margin-top: 460px;
+  height: 35px;
+ }
+  }
