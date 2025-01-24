@@ -298,7 +298,7 @@ nav {
   }
   
   #play-img {
-    width: 30px;
+    width: 30px;    
     height: 20px;
   }
   
@@ -818,6 +818,7 @@ nav {
       width: 100%;
   
       table {
+
         thead {
           height: 20px;
         }
@@ -832,8 +833,9 @@ nav {
 
         
         #data2{
-
+            
           font-size: 12px;
+
         }
 
 
@@ -842,10 +844,11 @@ nav {
 
 
       }
-  
-    
+      
        
     }
+
+   
 
     #firstimg{
 
@@ -1170,7 +1173,7 @@ nav {
  }
 
  .footer{
-  margin-top: 460px;
+  
   height: 35px;
  }
   }
